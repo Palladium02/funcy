@@ -2,7 +2,8 @@
   "name": "funcy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "build": "npx tsc -p ./tsconfig.json",
     "test:option": "node test/option.test.js",
